@@ -51,7 +51,8 @@ a {
   font-weight: bold;
 }
 
-a:hover {
+h2 > a:hover,
+.links > a:hover {
   color: var(--links-hover);
 }
 
@@ -65,4 +66,38 @@ nav {
 .links {
   display: flex;
   gap: 20px;
+}
+
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 3vh;
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--dark-blue);
+  margin-bottom: 5vh;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  list-style: none;
+  width: auto;
+}
+
+ul > li > a {
+  color: var(--dark-blue);
+  font-size: 1.5rem;
+}
+
+ul > li > a:hover {
+  color: #155761;
+}
+
+ul > li {
+  margin-top: 2vh;
 }
