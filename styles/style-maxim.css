@@ -1,109 +1,120 @@
 :root {
-    --forest: #104235;
-    --tan: #b5bcac;
-    --pastal: #59877f;
-    --black: #151c22;
-    --dark-blue: #0f4149;
-    --links-hover: #cbd3c0;
-  }
-  
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  html,
-  body {
-    background-color: var(--tan);
-    font-family: "Quicksand", sans-serif;
-  }
-  
-  header {
-    height: 15vh;
-    background-color: var(--dark-blue);
-  }
-  
-  h2 > a {
-    font-size: 1.8rem;
-    font-weight: bold;
-  }
-  
-  nav > h2 {
-    display: flex;
-    align-items: center;
-    gap: 2px;
-  }
-  
-  h2 > img {
-    height: 40px;
-    width: auto;
-    margin-top: 6px;
-  }
-  
-  .links > a {
-    font-size: 1.3rem;
-  }
-  
-  a {
-    color: var(--tan);
-    text-decoration: none;
-    font-weight: bold;
-  }
-  
-  h2 > a:hover,
-  .links > a:hover {
-    color: var(--links-hover);
-  }
-  
-  nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px 10vw 0 10vw;
-  }
-  
-  .links {
-    display: flex;
-    gap: 20px;
-  }
-  
-  .title {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 3vh;
-    font-size: 3rem;
-    font-weight: bold;
-    color: var(--dark-blue);
-    margin-bottom: 5vh;
-  }
+  --forest: #104235;
+  --tan: #b5bcac;
+  --pastal: #59877f;
+  --black: #151c22;
+  --dark-blue: #0f4149;
+  --links-hover: #cbd3c0;
+}
 
-  .informatii-algoritm {
-    margin: 0 10vw 0 10vw;
-  }
-  
-  .second {
-    margin-bottom: 5vh;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  .first,
-  .second {
-    font-size: 1.5rem;
-    color: var(--dark-blue);
-    font-weight: bold;
-  }
+html,
+body {
+  background-color: var(--tan);
+  font-family: "Quicksand", sans-serif;
+}
 
-  .second > li {
-    margin-left: 30px;
-    list-style: none;
-  }
+header {
+  height: 15vh;
+  background-color: var(--dark-blue);
+}
 
-  .cod {
-    display: flex;
-    gap: 20px;
-  }
+h2 > a {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
 
-  .cod1 > img, .cod2 > img {
-    border-radius: 5px;
-  }
+nav > h2 {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+h2 > img {
+  height: 40px;
+  width: auto;
+  margin-top: 6px;
+}
+
+.links > a {
+  font-size: 1.3rem;
+}
+
+a {
+  color: var(--tan);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+h2 > a:hover,
+.links > a:hover {
+  color: var(--links-hover);
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 10vw 0 10vw;
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+}
+
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 3vh;
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--dark-blue);
+  margin-bottom: 5vh;
+}
+
+.information-container {
+  margin-top: 5vh;
+}
+
+ul {
+  display: flex;
+  gap: 10px;
+  align-items: left;
+  padding-left: 10px;
+  justify-content: center;
+  flex-direction: column;
+  list-style: none;
+  width: auto;
+  width: 600px;
+}
+
+ul > li > a {
+  color: var(--dark-blue);
+  font-size: 1.5rem;
+  padding-left: 30px;
+}
+
+ul > li > a:hover {
+  color: #155761;
+}
+
+ul > li {
+  margin-top: 2vh;
+}
+
+.imagine-algoritm {
+  height: 350px;
+  width: auto;
+}
+
+.imaginesss {
+  align-self: center;
+}
